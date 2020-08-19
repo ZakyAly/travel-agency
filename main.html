@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🧳 Travel Agency Project</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Start Setting Box -->
+    <div class="setting-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="setting-container">
+        <div class="option-box">
+          <h4>Welcome</h4>
+          <p>Select Color</p>
+          <ul class="colors-list">
+            <li class="active" data-color="#00a2ff"></li>
+            <li data-color="#06c7f7"></li>
+            <li data-color="#ffa12e"></li>
+            <li data-color="#ea4bf9"></li>
+            <li data-color="#05eb5d"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Applay Random Background</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- End Setting Box -->
+
+    <!-- Start Nav  Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact Us</div>
+      </div>
+    </div>
+    <!-- End Nav  Bullets -->
+
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">
+            D<span>esign</span> <br />
+            Y<span>our</span> <br />
+            T<span>rip</span>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+              <li><a href="#" data-section=".contact">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="intorduction-text">
+        <h1>Let's <span>Start</span> the <span>Show!</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+          sapiente porro sed, dolor reiciendis iusto perferendis aliquid beatae
+          aspernatur rem esse nam vitae earum tempore adipisci eligendi.
+          Officia, voluptatem fuga!
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About US -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            animi voluptatem maiores iure nostrum alias qui at placeat,
+            voluptates aspernatur dolore earum, blanditiis saepe obcaecati
+            maxime libero dignissimos perferendis optio!
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="imgs/about-us.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End About US -->
+
+    <!-- Start Our Skills -->
+    <div class="skills">
+      <div class="container">
+        <h2>Top Destinations to Go</h2>
+        <div class="skill-box">
+          <div class="skill-name">Cape Town</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Paris</div>
+          <div class="skill-progress">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Rome</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Prague</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+    <!-- Start Our Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <p>one click to see the pic</p>
+        <div class="images-box">
+          <img src="imgs/1.jpg" alt="Cape Town" />
+          <img src="imgs/2.jpg" alt="Cape Town" />
+          <img src="imgs/3.jpg" alt="Paris" />
+          <img src="imgs/4.jpg" alt="Paris" />
+          <img src="imgs/5.jpg" alt="Rome" />
+          <img src="imgs/6.jpg" alt="Rome" />
+          <img src="imgs/7.jpg" alt="Prague" />
+          <img src="imgs/8.jpg" alt="Prague" />
+        </div>
+      </div>
+    </div>
+    <!-- END Our Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">Cape Town</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>Location</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum error soluta facere, deserunt ipsum rem distinctio
+                illum vel quis nam provident maiores nisi dolor minima voluptate
+                placeat libero ducimus dolorum!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>History</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum error soluta facere, deserunt ipsum rem distinctio
+                illum vel quis nam provident maiores nisi dolor minima voluptate
+                placeat libero ducimus dolorum!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">Paris</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>Location</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum error soluta facere, deserunt ipsum rem distinctio
+                illum vel quis nam provident maiores nisi dolor minima voluptate
+                placeat libero ducimus dolorum!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>History</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum error soluta facere, deserunt ipsum rem distinctio
+                illum vel quis nam provident maiores nisi dolor minima voluptate
+                placeat libero ducimus dolorum!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+          <div class="year">Rome</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>Location</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum error soluta facere, deserunt ipsum rem distinctio
+                illum vel quis nam provident maiores nisi dolor minima voluptate
+                placeat libero ducimus dolorum!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>History</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum error soluta facere, deserunt ipsum rem distinctio
+                illum vel quis nam provident maiores nisi dolor minima voluptate
+                placeat libero ducimus dolorum!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+          <div class="year">Prague</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>Location</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum error soluta facere, deserunt ipsum rem distinctio
+                illum vel quis nam provident maiores nisi dolor minima voluptate
+                placeat libero ducimus dolorum!
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>History</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum error soluta facere, deserunt ipsum rem distinctio
+                illum vel quis nam provident maiores nisi dolor minima voluptate
+                placeat libero ducimus dolorum!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Timeline -->
+    <!-- Start Features -->
+    <div class="features">
+      <h2>Services</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="imgs/airplane.jpg" alt="" />
+          <h4>Flight Bookings</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/reception.jpg" alt="" />
+          <h4>Hotel Bookings</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="feat-box">
+          <img src="/imgs/carRent.jpg" alt="" />
+          <h4>Car Rent</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- END Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor</p>
+          <div class="person-info">
+            <img src="/imgs/customer01.jpg" alt="" />
+            <h4>Jasmine</h4>
+            <p>Life Coach</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor</p>
+          <div class="person-info">
+            <img src="/imgs/customer02.jpg" alt="" />
+            <h4>Tim</h4>
+            <p>Doctor</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor</p>
+          <div class="person-info">
+            <img src="/imgs/customer03.jpg" alt="" />
+            <h4>Elle and Lara</h4>
+            <p>Students</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Testimonials -->
+
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="text" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your E-mail" name="email" />
+            <input type="text" placeholder="Subject" name="Subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- End Contact Us -->
+    <!-- Start Footer -->
+
+    <footer class="copyright">
+      <p>Copyright &copy;2020 Zaky Aly || All rights reserved.</p>
+    </footer>
+
+    <!-- End Footer -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
